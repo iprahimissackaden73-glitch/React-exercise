@@ -16,8 +16,8 @@ function Counter() {
 
   return (
     <div>
-      <h2>Counter</h2>
-      <h1>{count}</h1>
+      <h2>Counter {count}</h2>
+      {/* <h1>{count}</h1> */}
       <div>
         <button onClick={decrease} disabled={count === 0}>
           Decrease

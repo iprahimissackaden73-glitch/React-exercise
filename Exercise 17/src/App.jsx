@@ -1,5 +1,6 @@
 
 import useForm from "./userForm";
+import styles from './app.module.css'
 
 function App() {
 
@@ -68,7 +69,7 @@ function App() {
                     required
                 /><br/>
 
-                <button type="submit">
+                <button type="submit" className= {styles.regisrtration}>
                     Register
                 </button>
 
